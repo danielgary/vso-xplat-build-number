@@ -1,0 +1,33 @@
+{
+  "name": "vso-xplat-build-number",
+  "version": "0.0.2",
+  "description": "Cross platform utility for assigning build numbers",
+  "main": "index.js",
+  "bin": {
+    "set-build-number": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielgary/vso-xplat-build-number.git"
+  },
+  "keywords": [
+    "build",
+    "number",
+    "xcode",
+    "android"
+  ],
+  "author": "Daniel Gary <daniel@gatewayapps.com> (http://www.gatewayapps.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielgary/vso-xplat-build-number/issues"
+  },
+  "homepage": "https://github.com/danielgary/vso-xplat-build-number#readme",
+  "dependencies": {
+    "fs": "0.0.2",
+    "shelljs": "^0.6.0",
+    "yargs": "^4.6.0"
+  }
+}
